@@ -1,0 +1,31 @@
+{
+  "name": "gulp-sample",
+  "version": "1.0.0",
+  "description": "This is a genarator for gulpfile and package.json",
+  "author": "ryus",
+  "keywords": "gulp",
+  "devDependencies": {
+    "browser-sync": "~2.1.4",
+    "coffee-script": "^1.9.3",
+    "del": "^1.2.0",
+    "gulp": "*",
+    "gulp-autoprefixer": "*",
+    "gulp-coffee": "*",
+    "gulp-combine-media-queries": "*",
+    "gulp-concat": "*",
+    "gulp-csscomb": "*",
+    "gulp-csslint": "*",
+    "gulp-imagemin": "^2.2.1",
+    "gulp-jade": "*",
+    "gulp-jshint": "*",
+    "gulp-load-plugins": "*",
+    "gulp-minify-css": "*",
+    "gulp-plumber": "*",
+    "gulp-rename": "*",
+    "gulp-sass": "*",
+    "gulp-uglify": "*",
+    "gulp-util": "^3.0.5",
+    "wiredep": "^2.2.2",
+    "wrench": "^1.5.8"
+  }
+}

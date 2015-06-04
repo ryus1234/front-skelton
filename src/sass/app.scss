@@ -1,0 +1,22 @@
+$bgColor: #44C15B;
+$linkColor: #FFBF00;
+body{
+  background-color: $bgColor;
+  padding: 0 30px;
+  margin: 0;
+  color: #fff;
+  font-size: 14px;
+}
+h1{
+  margin: 15px 0 0 0;
+  font-size: 200%;
+}
+p{
+  margin: 0 0 0 15px;
+  line-height: 1.5;
+}
+a{
+  color: $linkColor;
+  font-weight: bold;
+  text-decoration: none;
+}
