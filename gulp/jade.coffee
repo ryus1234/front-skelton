@@ -4,7 +4,7 @@ $ = do require 'gulp-load-plugins'
 module.exports = (config)->
   gulp.task 'jade', [], ->
     gulp
-      .src ["#{config.src}/**/*.jade"]
+      .src ["#{config.src}/**/*.jade", "!#{config.src}/layouts/*.jade"]
       .pipe $.plumber
         handleError: (err)->
           console.log err
